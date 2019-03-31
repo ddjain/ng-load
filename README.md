@@ -8,11 +8,13 @@ You may wish to use callback function on DOM is loaded same like onload event in
 * Angular js.
 
 ## Getting Started
+Files to Download
+install them from npm by entering the command ```npm i angular-ng-load```.
 Include `angular-load.min.js` after `angular.js`.
 
-example:
+###example:
+###JS
 ```
-JS
 	// include the `ngLoad` module
 	var app = angular.module('myApp', ['ngLoad']);
 	app.controller('myCtrl', function($scope) {
@@ -22,7 +24,9 @@ JS
 
 	});  
  
- HTML 
+```
+###HTML 
+```
   <div ng-app='myApp' ng-controller='myCtrl'> 
       <iframe src="test.html" ng-load callback="testCallbackFunction()">  
   </div>
